@@ -1,0 +1,15 @@
+{
+    "terminal.integrated.shellArgs.windows": ["-ExecutionPolicy", "Bypass"],
+
+    "python.pythonPath": ".venv\\Scripts\\python.exe",
+    
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.lintOnSave": true,
+
+    "python.linting.pylintArgs": ["--enable=F,E,R,C,W", "--disable=C0114,W0141,W1632,W1633,W1619,W1618,C0114,C0115,C0116,C0103"],
+    "python.linting.flake8Args": [
+        "--max-line-length=150",
+        "--verbose"
+    ],
+}
